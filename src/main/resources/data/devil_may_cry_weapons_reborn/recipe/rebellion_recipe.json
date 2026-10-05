@@ -7,15 +7,9 @@
     "ca "
   ],
   "key": {
-    "a": {
-      "item": "minecraft:iron_ingot"
-    },
-    "b": {
-      "item": "minecraft:netherite_ingot"
-    },
-    "c": {
-      "item": "minecraft:stick"
-    }
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:netherite_ingot",
+    "c": "minecraft:stick"
   },
   "result": {
     "id": "devil_may_cry_weapons_reborn:rebellion_sword",

@@ -4,25 +4,25 @@ d 1.0
 Ka 0.0 0.0 0.0
 Kd 1.0 1.0 1.0
 Ks 0.0 0.0 0.0
-map_Kd devil_may_cry_weapons_reborn:block/dante
+map_Kd mat1
 newmtl mat2
 Ns 100.0
 d 1.0
 Ka 0.0 0.0 0.0
 Kd 1.0 1.0 1.0
 Ks 0.0 0.0 0.0
-map_Kd devil_may_cry_weapons_reborn:block/dante
+map_Kd mat2
 newmtl mat3
 Ns 100.0
 d 1.0
 Ka 0.0 0.0 0.0
 Kd 1.0 1.0 1.0
 Ks 0.0 0.0 0.0
-map_Kd devil_may_cry_weapons_reborn:block/dante
+map_Kd mat3
 newmtl mat4
 Ns 100.0
 d 1.0
 Ka 0.0 0.0 0.0
 Kd 1.0 1.0 1.0
 Ks 0.0 0.0 0.0
-map_Kd devil_may_cry_weapons_reborn:block/dante
+map_Kd mat4

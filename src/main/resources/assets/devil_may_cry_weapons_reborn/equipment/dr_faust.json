@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "devil_may_cry_weapons_reborn:dr_faust"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "devil_may_cry_weapons_reborn:dr_faust"
+      }
+    ]
+  }
+}

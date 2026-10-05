@@ -3,46 +3,11 @@
   "parent": "neoforge:item/default",
   "loader": "neoforge:obj",
   "model": "devil_may_cry_weapons_reborn:models/item/kalinaann1.obj",
-  "display": {
-    "thirdperson_righthand": {
-      "rotation": [ 0, 0, 265 ],
-      "translation": [9.9, -14.9, 11.3],
-      "scale": [ 1.5, 1.5, 1.5 ]
-    },
-    "thirdperson_lefthand": {
-      "rotation": [ 0, 0, 85 ],
-      "translation": [ -13.5, -12.9, 11.3 ],
-      "scale": [ 1.5, 1.5, 1.5 ]
-    },
-    "firstperson_righthand": {
-      "rotation": [ 285, 0, 270 ],
-      "translation": [50, 5.5, 13.5 ],
-      "scale": [ 6, 6, 6 ]
-    },
-    "firstperson_lefthand": {
-      "rotation": [ 285, 0, 90 ],
-      "translation": [ -15.0, 5.5, 13.5 ],
-      "scale": [ 6, 6, 6 ]
-    },
-    "gui": {
-      "rotation": [ 45, 240, 0  ],
-      "translation": [ -10.2, 2.5, 0 ],
-      "scale": [ 1.0, 1.0, 1.0 ]
-    },
-    "head": {
-      "rotation": [ 0, 0, 0 ],
-      "translation": [ 0, 0, 0 ],
-      "scale": [ 1, 1, 1 ]
-    },
-    "fixed": {
-      "rotation": [ 270, 0, 0 ],
-      "translation": [ 10, 6, -9.5 ],
-      "scale": [ 1.1, 1.1, 1.1 ]
-    },
-    "ground": {
-      "rotation": [ 270, 0, 90 ],
-      "translation": [ -12, 8, -15 ],
-      "scale": [ 1.6, 1.6, 1.6 ]
-    }
+  "textures": {
+    "mat3": "devil_may_cry_weapons_reborn:block/kalinaann1",
+    "mat2": "devil_may_cry_weapons_reborn:block/kalinaann1_23",
+    "mat1": "devil_may_cry_weapons_reborn:block/kalinaann1_23",
+    "mat4": "devil_may_cry_weapons_reborn:block/kalinaann1_4",
+    "particle": "devil_may_cry_weapons_reborn:item/dmc"
   }
 }

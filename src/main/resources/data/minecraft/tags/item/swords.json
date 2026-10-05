@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "devil_may_cry_weapons_reborn:devil_sword_sparda_sword",
+    "devil_may_cry_weapons_reborn:red_queen_sword",
+    "devil_may_cry_weapons_reborn:devil_sword_dante_sword",
     "devil_may_cry_weapons_reborn:yamato_sword",
     "devil_may_cry_weapons_reborn:rebellion_sword",
-    "devil_may_cry_weapons_reborn:red_queen_sword",
-    "devil_may_cry_weapons_reborn:devil_sword_dante_sword"
+    "devil_may_cry_weapons_reborn:devil_sword_sparda_sword"
   ]
 }

@@ -15,17 +15,21 @@ description="DMC Weapons In modern Minecraft!"
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
 [[dependencies.devil_may_cry_weapons_reborn]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.65,)"
+    versionRange="[26.1.2.95,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.devil_may_cry_weapons_reborn]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21.1]"
+    versionRange="[26.1.2]"
     ordering="AFTER"
     side="BOTH"
 

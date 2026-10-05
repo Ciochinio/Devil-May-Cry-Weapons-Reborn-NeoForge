@@ -1,19 +1,26 @@
 plugins {
     id 'eclipse'
-    id 'net.neoforged.moddev' version '1.0.21'
+    id 'net.neoforged.moddev' version '2.0.141'
 }
 
 version = '1.0'
 base.archivesName = "modid"
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
 
 neoForge {
-    version = "21.1.65"
+    version = "26.1.2.95"
 
     runs {
         client {
             client()
+
+            def mcreatorJvmOptions = System.getenv('MCREATOR_JVM_OPTIONS')
+            if (mcreatorJvmOptions) {
+                mcreatorJvmOptions.split("\\s+").findAll { it.trim() }.each { arg ->
+                    jvmArgument(arg)
+                }
+            }
         }
         server {
             server()
@@ -26,7 +33,7 @@ neoForge {
     }
 
     mods {
-        testproject {
+        mcreator {
             sourceSet sourceSets.main
         }
     }

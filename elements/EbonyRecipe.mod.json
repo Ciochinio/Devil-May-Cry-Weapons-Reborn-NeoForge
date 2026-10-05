@@ -1,47 +1,28 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.FIREWORK_CHARGE"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      }
+      "",
+      "",
+      "",
+      "Items.FIREWORK_CHARGE",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT",
+      "",
+      "",
+      "Items.STICK"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Ebony"
-    },
+    "recipeReturnStack": "CUSTOM:Ebony",
     "name": "ebony_recipe",
     "namespace": "mod"
   }

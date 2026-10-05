@@ -1,16 +1,9 @@
-
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
 package net.rbm.devilmaycryweaponsreborn.init;
 
-import net.rbm.devilmaycryweaponsreborn.entity.KalinaAnnIProjectileEntity;
-import net.rbm.devilmaycryweaponsreborn.entity.KalinaAnnIIProjectileEntity;
-import net.rbm.devilmaycryweaponsreborn.entity.IvoryProjectileEntity;
-import net.rbm.devilmaycryweaponsreborn.entity.EbonyProjectileEntity;
-import net.rbm.devilmaycryweaponsreborn.entity.CoyoteAProjectileEntity;
-import net.rbm.devilmaycryweaponsreborn.entity.BulletPlaceholderEntity;
-import net.rbm.devilmaycryweaponsreborn.entity.BlueRoseProjectileEntity;
+import net.rbm.devilmaycryweaponsreborn.entity.*;
 import net.rbm.devilmaycryweaponsreborn.DevilMayCryWeaponsRebornMod;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -19,6 +12,8 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 public class DevilMayCryWeaponsRebornModEntities {
@@ -41,6 +36,6 @@ public class DevilMayCryWeaponsRebornModEntities {
 	// Start of user code block custom entities
 	// End of user code block custom entities
 	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
-		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
+		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(ResourceKey.create(Registries.ENTITY_TYPE, Identifier.fromNamespaceAndPath(DevilMayCryWeaponsRebornMod.MODID, registryname))));
 	}
 }

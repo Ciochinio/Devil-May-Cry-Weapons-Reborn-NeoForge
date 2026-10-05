@@ -3,46 +3,9 @@
   "parent": "neoforge:item/default",
   "loader": "neoforge:obj",
   "model": "devil_may_cry_weapons_reborn:models/item/rebellion.obj",
-	"display" : {
-    "thirdperson_righthand": {
-            "rotation": [ 0, 188, 0 ],
-            "translation": [ -12.60, 3.0, -7.7 ],
-            "scale": [ 1.40, 1.40, 1.40 ]
-        },
-        "thirdperson_lefthand": {
-          "rotation": [ 0, 188, 0 ],
-          "translation": [ 10.00, 3.0, -10.7 ],
-            "scale": [ 1.40, 1.40, 1.40 ]
-        },
-        "firstperson_righthand": {
-          "rotation": [ 0, 190, 0 ],
-          "translation": [ -9.70, 0.20, -0.50 ],
-          "scale": [ 0.90, 0.90, 0.90 ]
-        },
-        "firstperson_lefthand": {
-          "rotation": [ 0, 190, 0 ],
-          "translation": [ 0.30, 0.20, -0.50 ],
-          "scale": [ 0.90, 0.90, 0.90 ]
-        },
-        "gui": {
-          "rotation": [ 96, 50, 216 ],
-          "translation": [ 0.10, -15.00, 0.00 ],
-          "scale": [ 1.30, 1.30, 1.30 ]
-        },
-        "head": {
-          "rotation": [ 0, 0, 0 ],
-          "translation": [ 0.00, 0.00, 0.00 ],
-          "scale": [ 1.00, 1.00, 1.00 ]
-        },
-        "fixed": {
-          "rotation": [ 0, 270, 0 ],
-          "translation": [ -12, -7, 12 ],
-          "scale": [ 1.5, 1.5, 1.5 ]
-        },
-        "ground": {
-          "rotation": [ 0, 0, 0 ],
-          "translation": [ 10.00, 2.00, 5.00 ],
-          "scale": [ 1.20, 1.20, 1.20 ]
-        }
-}
+  "textures": {
+    "mat2": "devil_may_cry_weapons_reborn:block/rebellion",
+    "mat1.002": "devil_may_cry_weapons_reborn:block/rebellion",
+    "particle": "devil_may_cry_weapons_reborn:item/dmc"
+  }
 }

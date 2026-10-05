@@ -1,4 +1,3 @@
-
 package net.rbm.devilmaycryweaponsreborn.item;
 
 import net.rbm.devilmaycryweaponsreborn.procedures.CoyoteARangedItemUsedProcedure;
@@ -6,27 +5,26 @@ import net.rbm.devilmaycryweaponsreborn.entity.CoyoteAProjectileEntity;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.UseAnim;
-import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ProjectileWeaponItem;
+import net.minecraft.world.item.ItemUseAnimation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.projectile.arrow.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 
 public class CoyoteAItem extends Item {
-	public CoyoteAItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
+	public CoyoteAItem(Item.Properties properties) {
+		super(properties.stacksTo(1));
 	}
 
 	@Override
-	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.BOW;
+	public ItemUseAnimation getUseAnimation(ItemStack itemstack) {
+		return ItemUseAnimation.BOW;
 	}
 
 	@Override
@@ -40,10 +38,10 @@ public class CoyoteAItem extends Item {
 	}
 
 	@Override
-	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
-		InteractionResultHolder<ItemStack> ar = InteractionResultHolder.fail(entity.getItemInHand(hand));
+	public InteractionResult use(Level world, Player entity, InteractionHand hand) {
+		InteractionResult ar = InteractionResult.FAIL;
 		if (entity.getAbilities().instabuild || findAmmo(entity) != ItemStack.EMPTY) {
-			ar = InteractionResultHolder.success(entity.getItemInHand(hand));
+			ar = InteractionResult.CONSUME;
 			entity.startUsingItem(hand);
 		}
 		CoyoteARangedItemUsedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
@@ -51,7 +49,7 @@ public class CoyoteAItem extends Item {
 	}
 
 	@Override
-	public void releaseUsing(ItemStack itemstack, Level world, LivingEntity entity, int time) {
+	public boolean releaseUsing(ItemStack itemstack, Level world, LivingEntity entity, int time) {
 		if (!world.isClientSide() && entity instanceof ServerPlayer player) {
 			ItemStack stack = findAmmo(player);
 			if (player.getAbilities().instabuild || stack != ItemStack.EMPTY) {
@@ -69,13 +67,14 @@ public class CoyoteAItem extends Item {
 				}
 			}
 		}
+		return super.releaseUsing(itemstack, world, entity, time);
 	}
 
 	private ItemStack findAmmo(Player player) {
 		ItemStack stack = ProjectileWeaponItem.getHeldProjectile(player, e -> e.getItem() == CoyoteAProjectileEntity.PROJECTILE_ITEM.getItem());
 		if (stack == ItemStack.EMPTY) {
-			for (int i = 0; i < player.getInventory().items.size(); i++) {
-				ItemStack teststack = player.getInventory().items.get(i);
+			for (int i = 0; i < player.getInventory().getContainerSize(); i++) {
+				ItemStack teststack = player.getInventory().getItem(i);
 				if (teststack != null && teststack.getItem() == CoyoteAProjectileEntity.PROJECTILE_ITEM.getItem()) {
 					stack = teststack;
 					break;

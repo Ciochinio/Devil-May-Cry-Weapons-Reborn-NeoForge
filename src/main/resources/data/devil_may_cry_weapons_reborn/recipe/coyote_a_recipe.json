@@ -7,15 +7,9 @@
     "c  "
   ],
   "key": {
-    "a": {
-      "item": "minecraft:iron_ingot"
-    },
-    "b": {
-      "item": "minecraft:fire_charge"
-    },
-    "c": {
-      "item": "minecraft:stick"
-    }
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:fire_charge",
+    "c": "minecraft:stick"
   },
   "result": {
     "id": "devil_may_cry_weapons_reborn:coyote_a",

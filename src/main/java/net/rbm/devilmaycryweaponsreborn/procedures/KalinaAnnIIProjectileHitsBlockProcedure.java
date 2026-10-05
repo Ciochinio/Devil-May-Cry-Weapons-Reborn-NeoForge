@@ -7,8 +7,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.server.level.ServerLevel;
 
-import java.util.List;
 import java.util.Comparator;
 
 public class KalinaAnnIIProjectileHitsBlockProcedure {
@@ -17,9 +17,13 @@ public class KalinaAnnIIProjectileHitsBlockProcedure {
 			_level.explode(null, x, y, z, 2, Level.ExplosionInteraction.NONE);
 		{
 			final Vec3 _center = new Vec3(x, y, z);
-			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(6 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
-			for (Entity entityiterator : _entfound) {
-				entityiterator.hurt(new DamageSource(world.holderOrThrow(DamageTypes.GENERIC)), 20);
+			for (Entity entityiterator : world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(6 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList()) {
+				{
+					Entity _ent = entityiterator;
+					if (_ent.level() instanceof ServerLevel _serverLevel) {
+						_ent.hurtServer(_serverLevel, new DamageSource(world.holderOrThrow(DamageTypes.GENERIC)), 20);
+					}
+				}
 			}
 		}
 	}

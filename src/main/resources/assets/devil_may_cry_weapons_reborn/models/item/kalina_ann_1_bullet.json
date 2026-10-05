@@ -4,7 +4,7 @@
   "loader": "neoforge:obj",
   "model": "devil_may_cry_weapons_reborn:models/item/ka1bullet.obj",
   "textures": {
-    "unknownmaterial": "devil_may_cry_weapons_reborn:blocks/ka1bullet",
-    "particle": "devil_may_cry_weapons_reborn:items/dmc"
+    "unknownmaterial": "devil_may_cry_weapons_reborn:block/ka1bullet",
+    "particle": "devil_may_cry_weapons_reborn:item/dmc"
   }
 }

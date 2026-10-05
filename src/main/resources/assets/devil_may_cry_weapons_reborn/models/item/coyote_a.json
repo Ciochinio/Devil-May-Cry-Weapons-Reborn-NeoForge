@@ -3,46 +3,14 @@
   "parent": "neoforge:item/default",
   "loader": "neoforge:obj",
   "model": "devil_may_cry_weapons_reborn:models/item/coyote-a.obj",
-  "display": {
-    "thirdperson_righthand": {
-      "rotation": [ 0, 180, 0 ],
-      "translation": [ -6.9, 7.3, -2.3 ],
-      "scale": [ 0.8, 0.8, 0.8]
-    },
-    "thirdperson_lefthand": {
-      "rotation": [ 0, 188, 0 ],
-      "translation": [ 6.5, 7.3, -2.8 ],
-      "scale": [ 0.8, 0.8, 0.8]
-    },
-    "firstperson_righthand": {
-      "rotation": [ 0, 190, 0 ],
-      "translation": [ -15, 15, -10.5 ],
-      "scale": [ 2, 2, 2 ]
-    },
-    "firstperson_lefthand": {
-      "rotation": [ 0, 190, 0 ],
-      "translation": [ 15.0, 15.0, -15.5 ],
-      "scale": [ 2, 2, 2 ]
-    },
-    "gui": {
-      "rotation": [ 96, 130, 270 ],
-      "translation": [ -7.2, 6, 0 ],
-      "scale": [ 1, 1, 1 ]
-    },
-    "head": {
-      "rotation": [ 0, 0, 0 ],
-      "translation": [ 0, 0, 0 ],
-      "scale": [ 1, 1, 1 ]
-    },
-    "fixed": {
-      "rotation": [ 0, 270, 0 ],
-      "translation": [ 2, 10, 9 ],
-      "scale": [ 1, 1, 1 ]
-    },
-    "ground": {
-      "rotation": [ 0, 0, 0 ],
-      "translation": [ 0, 6, 0],
-      "scale": [ 0.7, 0.7 ,0.7 ]
-    }
+  "textures": {
+    "材質0.002": "devil_may_cry_weapons_reborn:block/coyote",
+    "材質2.002": "devil_may_cry_weapons_reborn:block/coyote",
+    "材質6": "devil_may_cry_weapons_reborn:block/coyote",
+    "材質1.002": "devil_may_cry_weapons_reborn:block/coyote",
+    "材質3.001": "devil_may_cry_weapons_reborn:block/coyote",
+    "材質4": "devil_may_cry_weapons_reborn:block/coyote",
+    "材質5": "devil_may_cry_weapons_reborn:block/coyote",
+    "particle": "devil_may_cry_weapons_reborn:item/dmc"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "tab",
   "definition": {
     "name": "Devil May Cry ",
-    "icon": {
-      "value": "CUSTOM:DMC"
-    },
+    "icon": "CUSTOM:DMC",
     "showSearch": false
   }
 }

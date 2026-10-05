@@ -15,7 +15,7 @@ public class DrFaustHelmetTickEventProcedure {
 			return;
 		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == DevilMayCryWeaponsRebornModItems.DR_FAUST_HELMET.get()) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 10, 999, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.STRENGTH, 10, 999, false, false));
 		}
 	}
 }

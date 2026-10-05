@@ -1,47 +1,28 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Items.ENDER_EYE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": ""
-      }
+      "",
+      "",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT",
+      "Items.ENDER_EYE",
+      "",
+      "Items.STICK",
+      "Items.IRON_INGOT",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:DevilSwordSpardaSword"
-    },
+    "recipeReturnStack": "CUSTOM:DevilSwordSpardaSword",
     "name": "devil_sword_sparda_recipe",
     "namespace": "mod"
   }

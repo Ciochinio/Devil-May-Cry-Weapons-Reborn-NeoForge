@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -9,13 +9,12 @@
     "customModelName": "devilsworddante:default",
     "blockingModelName": "Normal blocking",
     "name": "Devil Sword Dante",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:DevilMayCryInv"
-      }
+      "CUSTOM:DevilMayCryInv"
     ],
     "efficiency": 2.0,
     "attackSpeed": 1.6,
@@ -29,10 +28,9 @@
     "immuneToFire": true,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "DevilSwordDanteLivingEntityIsHitWithTool"
-    }
+    "onEntityHitWith": "DevilSwordDanteLivingEntityIsHitWithTool"
   }
 }

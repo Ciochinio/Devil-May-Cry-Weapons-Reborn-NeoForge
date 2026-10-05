@@ -7,18 +7,10 @@
     "  d"
   ],
   "key": {
-    "a": {
-      "item": "minecraft:tnt"
-    },
-    "b": {
-      "item": "minecraft:iron_block"
-    },
-    "c": {
-      "item": "minecraft:fire_charge"
-    },
-    "d": {
-      "item": "minecraft:stick"
-    }
+    "a": "minecraft:tnt",
+    "b": "minecraft:iron_block",
+    "c": "minecraft:fire_charge",
+    "d": "minecraft:stick"
   },
   "result": {
     "id": "devil_may_cry_weapons_reborn:kalina_ann_ii",

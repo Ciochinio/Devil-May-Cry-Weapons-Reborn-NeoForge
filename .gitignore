@@ -1,22 +1,36 @@
 # Gradle build system ignores
 .gradle/
 build/
+out/
 
-# Other IDE related folders
+# IDE related folders and files
 .idea/
+.vscode/
+*.iml
+
+# Eclipse project files (MCreator regenerates these with machine-specific absolute paths)
+.eclipse/
 .settings/
+.classpath
+.project
+bin/
 
 # MCreator workspace
-.mcreator
+.mcreator/
 
-# Minecraft client/server files
-run
-run/
+# Minecraft client/server files (test world, logs, configs, saves)
+/run/
+/runs/
+*.log
 
-# MCreator generator ignores
+# OS system files
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# MacOS system files
-.DS_STORE
-.AppleDouble
-.LSOverride
-/.idea/runConfigurations.xml
+# Agent tooling (local only)
+CLAUDE.md
+.claude
+/.agents
+skills-lock.json
+agents.md

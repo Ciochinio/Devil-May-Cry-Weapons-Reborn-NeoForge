@@ -18,6 +18,7 @@
       "registry_name": "dmc",
       "metadata": {
         "files": [
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/dmc.json",
           "src/main/java/net/rbm/devilmaycryweaponsreborn/item/DMCItem.java",
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/dmc.json"
         ]
@@ -54,8 +55,14 @@
         "eb": false,
         "ec": false,
         "files": [
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/dr_faust_chestplate.json",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/equipment/dr_faust.json",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/client/renderer/item/DrFaustArmor.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/dr_faust_helmet.json",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/dr_faust_helmet.json",
           "src/main/java/net/rbm/devilmaycryweaponsreborn/item/DrFaustItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/dr_faust_helmet.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/dr_faust_leggings.json",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/dr_faust_boots.json"
         ]
       },
       "path": "~/Guns"
@@ -533,8 +540,9 @@
       "registry_name": "kalina_ann_1_bullet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_1_bullet.json",
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/KalinaAnn1BulletItem.java"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/kalina_ann_1_bullet.json",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/KalinaAnn1BulletItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_1_bullet.json"
         ]
       },
       "path": "~/Guns/Bullets"
@@ -547,8 +555,9 @@
       "registry_name": "kalina_ann_2_bullet",
       "metadata": {
         "files": [
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/KalinaAnn2BulletItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_2_bullet.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_2_bullet.json",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/kalina_ann_2_bullet.json",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/KalinaAnn2BulletItem.java"
         ]
       },
       "path": "~/Guns/Bullets"
@@ -561,8 +570,9 @@
       "registry_name": "blue_rose_bullet",
       "metadata": {
         "files": [
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/BlueRoseBulletItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/blue_rose_bullet.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/blue_rose_bullet.json",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/blue_rose_bullet.json",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/BlueRoseBulletItem.java"
         ]
       },
       "path": "~/Guns/Bullets"
@@ -721,7 +731,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/rbm/devilmaycryweaponsreborn/item/CoyoteAItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/coyote_a.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/coyote_a.json",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/coyote_a.json"
         ]
       },
       "path": "~/Guns/CoyoteA"
@@ -748,7 +759,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/rbm/devilmaycryweaponsreborn/item/EbonyItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/ebony.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/ebony.json",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/ebony.json"
         ]
       },
       "path": "~/Guns/Ebony"
@@ -774,8 +786,9 @@
       "registry_name": "ivory",
       "metadata": {
         "files": [
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/IvoryItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/ivory.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/ivory.json",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/ivory.json",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/IvoryItem.java"
         ]
       },
       "path": "~/Guns/Ivory"
@@ -802,7 +815,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_i.json",
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/KalinaAnnIItem.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/KalinaAnnIItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/kalina_ann_i.json"
         ]
       },
       "path": "~/Guns/Kalinann1"
@@ -828,8 +842,9 @@
       "registry_name": "kalina_ann_ii",
       "metadata": {
         "files": [
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/KalinaAnnIIItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_ii.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/kalina_ann_ii.json",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/kalina_ann_ii.json",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/KalinaAnnIIItem.java"
         ]
       },
       "path": "~/Guns/Kalinann2"
@@ -855,8 +870,9 @@
       "registry_name": "blue_rose",
       "metadata": {
         "files": [
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/BlueRoseItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/blue_rose.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/blue_rose.json",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/blue_rose.json",
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/BlueRoseItem.java"
         ]
       },
       "path": "~/Guns/BlueRose"
@@ -918,6 +934,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/devil_sword_dante_sword.json",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/devil_sword_dante_sword.json",
           "src/main/java/net/rbm/devilmaycryweaponsreborn/item/DevilSwordDanteSwordItem.java"
         ]
       },
@@ -932,7 +949,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/red_queen_sword.json",
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/RedQueenSwordItem.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/RedQueenSwordItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/red_queen_sword.json"
         ]
       },
       "path": "~/Swords/RedQueen"
@@ -945,8 +963,9 @@
       "registry_name": "rebellion_sword",
       "metadata": {
         "files": [
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/rebellion_sword.json",
           "src/main/java/net/rbm/devilmaycryweaponsreborn/item/RebellionSwordItem.java",
-          "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/rebellion_sword.json"
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/rebellion_sword.json"
         ]
       },
       "path": "~/Swords/Rebellion"
@@ -960,7 +979,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/yamato_sword.json",
-          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/YamatoSwordItem.java"
+          "src/main/java/net/rbm/devilmaycryweaponsreborn/item/YamatoSwordItem.java",
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/yamato_sword.json"
         ]
       },
       "path": "~/Swords/Yamato"
@@ -973,6 +993,7 @@
       "registry_name": "devil_sword_sparda_sword",
       "metadata": {
         "files": [
+          "src/main/resources/assets/devil_may_cry_weapons_reborn/items/devil_sword_sparda_sword.json",
           "src/main/java/net/rbm/devilmaycryweaponsreborn/item/DevilSwordSpardaSwordItem.java",
           "src/main/resources/assets/devil_may_cry_weapons_reborn/models/item/devil_sword_sparda_sword.json"
         ]
@@ -1080,15 +1101,15 @@
     }
   ],
   "tag_elements": {
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:DevilSwordSpardaSword",
-      "~CUSTOM:YamatoSword",
-      "~CUSTOM:RebellionSword",
-      "~CUSTOM:RedQueenSword",
-      "~CUSTOM:DevilSwordDanteSword"
-    ],
     "ITEMS:minecraft:head_armor": [
-      "~CUSTOM:DrFaust.helmet"
+      "~DrFaust@CUSTOM:DrFaust.helmet"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~DevilSwordSpardaSword@CUSTOM:DevilSwordSpardaSword",
+      "~YamatoSword@CUSTOM:YamatoSword",
+      "~RebellionSword@CUSTOM:RebellionSword",
+      "~RedQueenSword@CUSTOM:RedQueenSword",
+      "~DevilSwordDanteSword@CUSTOM:DevilSwordDanteSword"
     ]
   },
   "tab_element_order": {},
@@ -1151,6 +1172,20 @@
       "item.devil_may_cry_weapons_rebirth.devil_sword_dante": "Devil Sword Dante",
       "item.devil_may_cry_weapons_reborn.kalina_ann_1_bullet": "Kalina Ann 1 Bullet"
     }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/rbm/devilmaycryweaponsreborn/init/DevilMayCryWeaponsRebornModItems.java",
+      "src/main/java/net/rbm/devilmaycryweaponsreborn/init/DevilMayCryWeaponsRebornModEntities.java",
+      "src/main/java/net/rbm/devilmaycryweaponsreborn/init/DevilMayCryWeaponsRebornModEntityRenderers.java",
+      "src/main/java/net/rbm/devilmaycryweaponsreborn/init/DevilMayCryWeaponsRebornModSounds.java",
+      "src/main/java/net/rbm/devilmaycryweaponsreborn/init/DevilMayCryWeaponsRebornModTabs.java",
+      "src/main/java/net/rbm/devilmaycryweaponsreborn/DevilMayCryWeaponsRebornMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/devil_may_cry_weapons_reborn/sounds.json",
+      "src/main/resources/META-INF/accesstransformer.cfg"
+    ]
   },
   "foldersRoot": {
     "name": "~",
@@ -1229,9 +1264,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.21.1",
+    "currentGenerator": "neoforge-26.1.2",
     "credits": "http://redboltmedia.net/",
     "modElementsPackage": "net.rbm.devilmaycryweaponsreborn"
   },
-  "mcreatorVersion": 202400451119
+  "mcreatorVersion": 202600233518
 }

@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Scripts must keep their platform line endings
+*.bat text eol=crlf
+gradlew text eol=lf
+
+# Binary assets
+*.png binary
+*.ogg binary
+*.jar binary
+*.bbmodel text

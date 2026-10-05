@@ -6,15 +6,9 @@
     "c  "
   ],
   "key": {
-    "a": {
-      "item": "minecraft:iron_ingot"
-    },
-    "b": {
-      "item": "minecraft:firework_star"
-    },
-    "c": {
-      "item": "minecraft:stick"
-    }
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:firework_star",
+    "c": "minecraft:stick"
   },
   "result": {
     "id": "devil_may_cry_weapons_reborn:ivory",

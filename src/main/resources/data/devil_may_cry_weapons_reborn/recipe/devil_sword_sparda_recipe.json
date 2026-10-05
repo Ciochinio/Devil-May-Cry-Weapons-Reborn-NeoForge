@@ -7,15 +7,9 @@
     "ca "
   ],
   "key": {
-    "a": {
-      "item": "minecraft:iron_ingot"
-    },
-    "b": {
-      "item": "minecraft:ender_eye"
-    },
-    "c": {
-      "item": "minecraft:stick"
-    }
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:ender_eye",
+    "c": "minecraft:stick"
   },
   "result": {
     "id": "devil_may_cry_weapons_reborn:devil_sword_sparda_sword",

@@ -1,15 +1,13 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "projectile",
   "definition": {
-    "projectileItem": {
-      "value": "Blocks.POLISHED_BLACKSTONE_BUTTON"
-    },
+    "projectileItem": "Blocks.POLISHED_BLACKSTONE_BUTTON",
     "showParticles": false,
-    "actionSound": {
-      "value": ""
-    },
+    "actionSound": "",
     "igniteFire": false,
+    "disableGravity": false,
+    "disableDiscarding": false,
     "power": 0.0,
     "damage": 0.0,
     "knockback": 0,

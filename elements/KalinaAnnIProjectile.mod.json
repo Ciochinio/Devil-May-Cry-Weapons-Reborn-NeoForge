@@ -1,15 +1,13 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "projectile",
   "definition": {
-    "projectileItem": {
-      "value": "CUSTOM:KalinaAnn1Bullet"
-    },
+    "projectileItem": "CUSTOM:KalinaAnn1Bullet",
     "showParticles": false,
-    "actionSound": {
-      "value": ""
-    },
+    "actionSound": "",
     "igniteFire": false,
+    "disableGravity": false,
+    "disableDiscarding": false,
     "power": 0.0,
     "damage": 0.0,
     "knockback": 0,
@@ -17,17 +15,9 @@
     "customModelTexture": "",
     "modelWidth": 0.5,
     "modelHeight": 0.5,
-    "onHitsBlock": {
-      "name": "KalinaAnnIProjectileHitsBlock"
-    },
-    "onHitsPlayer": {
-      "name": "KalinaAnnIProjectileHitsBlock"
-    },
-    "onHitsEntity": {
-      "name": "KalinaAnnIProjectileHitsBlock"
-    },
-    "onFlyingTick": {
-      "name": "KalinaAnnIWhileProjectileFlyingTick"
-    }
+    "onHitsBlock": "KalinaAnnIProjectileHitsBlock",
+    "onHitsPlayer": "KalinaAnnIProjectileHitsBlock",
+    "onHitsEntity": "KalinaAnnIProjectileHitsBlock",
+    "onFlyingTick": "KalinaAnnIWhileProjectileFlyingTick"
   }
 }

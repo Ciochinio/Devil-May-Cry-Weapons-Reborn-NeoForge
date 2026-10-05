@@ -4,7 +4,7 @@
   "loader": "neoforge:obj",
   "model": "devil_may_cry_weapons_reborn:models/item/brbullet.obj",
   "textures": {
-    "mat01.001": "devil_may_cry_weapons_reborn:blocks/brbullet",
-    "particle": "devil_may_cry_weapons_reborn:items/dmc"
+    "mat01.001": "devil_may_cry_weapons_reborn:block/brbullet",
+    "particle": "devil_may_cry_weapons_reborn:item/dmc"
   }
 }

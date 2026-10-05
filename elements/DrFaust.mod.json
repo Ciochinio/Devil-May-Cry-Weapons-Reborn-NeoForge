@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,13 +10,9 @@
     "textureLeggings": "",
     "enableBoots": false,
     "textureBoots": "",
-    "onHelmetTick": {
-      "name": "DrFaustHelmetTickEvent"
-    },
+    "onHelmetTick": "DrFaustHelmetTickEvent",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:DevilMayCryInv"
-      }
+      "CUSTOM:DevilMayCryInv"
     ],
     "armorTextureFile": "drfaust.",
     "helmetName": "Dr Faust",
@@ -59,6 +55,10 @@
     "leggingsItemCustomModelName": "Normal",
     "bootsItemRenderType": 0,
     "bootsItemCustomModelName": "Normal",
+    "helmetTranslucency": false,
+    "bodyTranslucency": false,
+    "leggingsTranslucency": false,
+    "bootsTranslucency": false,
     "helmetImmuneToFire": false,
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
@@ -92,12 +92,12 @@
     "damageValueBody": 0,
     "damageValueLeggings": 0,
     "damageValueBoots": 2,
-    "enchantability": 0,
+    "enchantability": 1,
     "toughness": 0.0,
     "knockbackResistance": 0.0,
-    "equipSound": {
-      "value": ""
-    },
-    "repairItems": []
+    "equipSound": "",
+    "repairItems": [],
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }
